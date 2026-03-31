@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: rgb(16, 15, 15);
+  color: white;
+}
+
+.hero {
+  height: 200vh; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  font-size: 48px;
+  letter-spacing: 12px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.stats {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 40px;
+}
+
+.stat {
+  text-align: center;
+  opacity: 0;
+}
+
+.stat h2 {
+  font-size: 36px;
+  color: orange;
+  margin: 0;
+}
+
+.stat p {
+  font-size: 14px;
+  color: #ccc;
+  margin-top: 5px;
+}
+
+.car {
+  width: 300px;
+}
